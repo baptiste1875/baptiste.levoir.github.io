@@ -1,0 +1,285 @@
+@font-face{
+    font-family:'BebasNeueRegular';
+    src: url('BebasNeue-Regular.otf');
+}
+
+.container{
+    width:90%; background-color: Snow ;
+}
+
+/* header */
+.typo_titre_nav{
+    color:white;font-size: 64px;font-family:'BebasNeueRegular'; padding: 0%; margin: 0;
+}
+
+.typo_menu_nav{
+    color:white;font-size: 18px;font-family:'BebasNeueRegular';
+}
+
+.typo_menu_nav2{
+    color:white;font-size: 14px;font-family:'Trebuchet MS';
+}
+
+.typo_menu_nav3{
+    color:black;font-size: 32px;font-family:'BebasNeueRegular'; width: 100%; background-color: rgb(247, 123, 21);
+    text-align: center; padding: 0; margin: 0;
+}
+
+
+/* bloc 1 col */
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-gap: 0;
+    padding: 0;
+    margin-top: 1%;
+}
+
+.image_bloc1{
+    width: 100%;
+}
+
+.image_bloc2{
+    width: 100%; background: black;
+}
+
+.fd_noir{
+    background: black;
+}
+
+.fd_orange{
+    background: rgb(247, 123, 21);
+}
+
+.fd_gris{
+    background: #ddd;
+}
+
+
+.typo_pres1{
+    color:rgb(247, 123, 21); font-size: 17px; text-align: left; padding: 0; font-family:'Trebuchet MS';
+    margin:0;
+}
+
+.typo_pres2{
+    color:black; font-size: 15px; text-align: left; padding: 0; font-family:'Trebuchet MS';
+}
+
+.typo_pres3{
+    color:rgb(107, 106, 106); font-size: 12px; text-align: left; padding: 0; font-family:'Trebuchet MS';
+}
+
+.fond_items{
+    background-color: Snow ;
+}
+
+/* bloc 2 portfolio */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 5px;
+    padding: 0%;
+    /* margin-top: 1%; */
+}
+
+.typo_titre_portfolio{
+    color:black;font-size: 24px;font-family:'BebasNeueRegular'; width: 100%; background-color: rgb(247, 123, 21);
+    text-align: center; padding: 0%; margin-top: 2,5%;
+    /* display: grid;
+    grid-template-columns: 12fr;
+    grid-gap: 0%; */
+    /* margin-top: 1%; */
+}
+
+
+/* collapsible */
+
+.collapsible {
+    border-top: 1px solid #ddd;
+    border-right: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+    margin: 0;
+    box-shadow: 0 0 0 0;
+}
+  
+.collapsible-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    /* line-height: 1; */
+    padding-left: 1rem;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #ddd;    
+    color:black; font-size: 24px; text-align: left; font-family:'BebasNeueRegular';
+    margin:0;background-color: rgb(247, 123, 21);
+}
+
+.collapsible-body {
+    display: none;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem;
+    background-color:Snow;
+    border-right: 1px solid rgb(247, 123, 21);
+}
+
+/* caroussel */
+
+.typo_caroussel{
+    color:Snow; font-size: 128px; font-family:'BebasNeueRegular';
+}
+
+
+/* test tooltype */
+
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(247, 123, 21);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1px 0;
+    /* top: -5px; */
+    left: 0%; 
+    bottom: 10%;
+    color:white; font-size: 24px; font-family:'BebasNeueRegular';
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+
+.call{
+    color:rgb(247, 123, 21); font-size: 24px;
+}
+
+/* bloc3 parcours */
+
+.typo_titre_parcours{
+    color:black;font-size: 24px;font-family:'BebasNeueRegular'; width: 100%; background-color: rgb(247, 123, 21);
+    text-align: center; padding: 0%; margin-top: 1%;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 0;
+    padding: 0;
+    margin-top: 1%;
+}
+
+.image_parcours{
+    height: 100%; 
+    background: black;
+}
+
+/* Test parcours */
+
+/* TEST */
+
+  
+.parcours-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    /* line-height: 1; */
+    padding-left: 1rem;
+    /* background-color: #fff; */
+    border-bottom: 0px solid rgb(247, 123, 21); border-top: 1px solid rgb(247, 123, 21); border-right: 1px solid rgb(247, 123, 21);   
+    color:black; font-size: 24px; text-align: left; font-family:'BebasNeueRegular';
+    margin:0;background-color: #ddd;
+}
+
+.parcours-body {
+    display: none;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem;
+    background-color:Snow;
+    border-right: 1px solid rgb(247, 123, 21);
+}
+
+.parcours_txt1{
+    color:rgb(247, 123, 21); font-size: 22px; text-align: left; padding-left: 10px; font-family:'Trebuchet MS';
+    margin:0; text-transform: uppercase;
+}
+
+.border_bottom{
+    border-bottom: 1px solid rgb(247, 123, 21);
+}
+.formation{
+    color:rgb(109, 107, 106)
+}
+
+/* bloc 4 contact */
+
+.typo_titre_contacts{
+    color:black;font-size: 24px;font-family:'BebasNeueRegular'; width: 100%; background-color: rgb(247, 123, 21);
+    text-align: center; padding: 0%; margin-top: 2%;
+}
+
+
+
+/* .red{
+    background: red;
+} */
+
+/* .parcours_txt1{
+    color:black; font-size: 30px; text-align: left; font-family:'BebasNeueRegular';
+    padding: 0; margin: 0;
+}
+
+.parcours_txt2{
+    color:black; font-size: 24px; text-align: left; font-family:'Trebuchet MS';
+    padding: 0; margin: 0;
+} */
+
+
+
+/* test caroussel depuis mat */
+
+/* .slider {
+    position: relative;
+    height: 400px;
+    width: 100%;
+  } */
+
+
+/* col test */
+
+/* .col3 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0%;
+    grid-row-gap: 0px;
+    grid-template-rows: auto;
+    text-align: center;
+    padding-bottom: 0%; } */
+
+
+
+
+
+

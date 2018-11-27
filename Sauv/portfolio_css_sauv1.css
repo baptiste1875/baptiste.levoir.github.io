@@ -1,0 +1,35 @@
+@font-face{
+    font-family:'BebasNeueRegular';
+    src: url('BebasNeue-Regular.otf');
+}
+
+/* header */
+.typo_titre_nav{
+    color:white;font-size: 64px;font-family:'BebasNeueRegular'; padding: 0%; margin: 0;
+}
+
+.typo_menu_nav{
+    color:white;font-size: 18px;font-family:'BebasNeueRegular';
+}
+
+.typo_menu_nav2{
+    color:white;font-size: 14px;font-family:'Trebuchet MS';
+}
+
+.typo_menu_nav3{
+    color:black;font-size: 32px;font-family:'BebasNeueRegular'; width: 100%; background-color: rgb(247, 123, 21);
+    text-align: center; padding: 0; margin: 0;
+}
+
+
+/* bloc1 */
+.fond_bloc1{
+    background-color: rgb(247, 123, 21); margin: 0; padding: 0;
+}
+
+/* 
+/* TEST */
+/* .pres_2{
+    width:100%; height:auto;float: left;
+    color:white;font-size: 48px;font-family:'BebasNeueRegular';background-color: black;
+} */
